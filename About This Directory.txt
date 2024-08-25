@@ -1,5 +1,0 @@
-- Model 01 is the Prediction Model for Carbs%, Fats%, and Proteins% based on User Features like Age, Gender, BMI, BMR, etc.
-- Model 02 is the Suggestion Model for Food items based on some of the Users' Features from Model 01 and some new Features like "change in sugar level," etc.
-- "Book_Food_Composition_Table_for_Pakistan_" is the Official Pakistan document used to get nutrition information on foods available in Pakistan.
-- Models Combined contains the Final Files for both models, including all their dependencies. Run the first model before and the second model after. Everything is working. After this, I started working on setting up a Docker container for both of these models.
-- Docker Setup contains the dependencies for the models, the Flask App for API(both models connected to API through Flask), Docker files, and everything needed to create a Docker container for both models.
